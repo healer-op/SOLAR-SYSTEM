@@ -47,14 +47,14 @@ function Suhani(){
   let mass = prompt("ENTER YOUR WIEGHT IN KG");
   mass = Math.round(parseFloat(mass));
 
-  document.getElementById("mer").innerHTML = `Mercury ${Math.round(0.377*mass)}kg`
-  document.getElementById("ven").innerHTML = `Venus ${Math.round(0.904*mass)}kg`
-  document.getElementById("ear").innerHTML = `Earth ${Math.round(mass)}kg`
-  document.getElementById("mar").innerHTML = `Mars ${Math.round(0.38*mass)}kg`
-  document.getElementById("jup").innerHTML = `Jupiter ${Math.round(2.53*mass)}kg`
-  document.getElementById("sat").innerHTML = `Saturn ${Math.round(1.065*mass)}kg`
-  document.getElementById("ura").innerHTML = `Uranus ${Math.round(0.886*mass)}kg`
-  document.getElementById("nep").innerHTML = `Neptune ${Math.round(1.14*mass)}kg`
+  document.getElementById("mer").innerHTML = `Mercury <b style="color:yellow;background-color:black">${Math.round(0.377*mass)}kg</b>`
+  document.getElementById("ven").innerHTML = `Venus <b style="color:yellow;background-color:black">${Math.round(0.904*mass)}kg</b>`
+  document.getElementById("ear").innerHTML = `Earth <b style="color:yellow;background-color:black">${Math.round(mass)}kg</b>`
+  document.getElementById("mar").innerHTML = `Mars <b style="color:yellow;background-color:black">${Math.round(0.38*mass)}kg</b>`
+  document.getElementById("jup").innerHTML = `Jupiter <b style="color:yellow;background-color:black">${Math.round(2.53*mass)}kg</b>`
+  document.getElementById("sat").innerHTML = `Saturn <b style="color:yellow;background-color:black">${Math.round(1.065*mass)}kg</b>`
+  document.getElementById("ura").innerHTML = `Uranus <b style="color:yellow;background-color:black">${Math.round(0.886*mass)}kg</b>`
+  document.getElementById("nep").innerHTML = `Neptune <b style="color:yellow;background-color:black">${Math.round(1.14*mass)}kg</b>`
 }
 
 Suhani()
