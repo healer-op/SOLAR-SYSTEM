@@ -56,5 +56,3 @@ function Suhani(){
   document.getElementById("ura").innerHTML = `Uranus <b style="color:yellow;background-color:black">${Math.round(0.886*mass)}kg</b>`
   document.getElementById("nep").innerHTML = `Neptune <b style="color:yellow;background-color:black">${Math.round(1.14*mass)}kg</b>`
 }
-
-Suhani()
